@@ -1,0 +1,29 @@
+{
+  "name": "servidor",
+  "overrides": {
+    "express-mysql-session": {
+      "mysql2": "^3.24.6"
+    }
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.cjs",
+  "scripts": {
+    "start": "node index.cjs",
+    "dev": "node --watch index.cjs",
+    "test": "node --test testes.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "argon2": "^0.45.1",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "express-mysql-session": "^3.0.3",
+    "express-rate-limit": "^8.7.1",
+    "express-session": "^1.19.0",
+    "mysql2": "^3.24.6"
+  }
+}
